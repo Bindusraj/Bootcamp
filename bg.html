@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .color-button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            border: black;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Change Background Color</h1>
+
+    <button class="color-button" style="background-color: red;" onclick="changeBackgroundColor('red')">Red</button>
+    <button class="color-button" style="background-color: green;" onclick="changeBackgroundColor('green')">Green</button>
+    <button class="color-button" style="background-color: blue;" onclick="changeBackgroundColor('blue')">Blue</button>
+    <button class="color-button" style="background-color: yellow; color: black;" onclick="changeBackgroundColor('yellow')">Yellow</button>
+    <button class="color-button" style="background-color: pink;" onclick="changeBackgroundColor('pink')">Pink</button>
+
+    <script>
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+    <p>Hi I am Bindushree.S </p>
+
+</body>
+</html>
